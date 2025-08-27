@@ -1,0 +1,62 @@
+MATCH (c:Champion {name: 'Akshan'}), (r:Runeterra {name: 'Shurima'})
+merge (c)-[:fights_for]->(r)
+
+match (c:Champion {name: 'Ashe'}), (r:Runeterra {name: 'The Freljord'})
+merge (c)-[:rules]->(r)
+
+MATCH (c:Champion {name: 'Caitlyn'}), (r:Runeterra {name: 'Piltover'})
+merge (c)-[:fights_for]->(r)
+
+MATCH (c:Champion {name: 'Darius'}), (r:Runeterra {name: 'Noxus'})
+merge (c)-[:fights_for]->(r)
+
+MATCH (c:Champion {name: 'Hecarim'}), (r:Runeterra {name: 'Shadow Isles'})
+merge (c)-[:belongs_to]->(r)
+
+match (c:Champion {name: "Kai'Sa"}), (r:Runeterra {name: 'The Void'})
+merge (c)-[:belongs_to]->(r)
+
+MATCH (c:Champion {name: 'Lux'}), (r:Runeterra {name: 'Demacia'})
+merge (c)-[:protects]->(r)
+
+MATCH (c:Champion {name: 'Miss Fortune'}), (r:Runeterra {name: 'Bilgewater'})
+merge (c)-[:belongs_to]->(r)
+
+MATCH (c:Champion {name: 'Oriana'}), (r:Runeterra {name: 'Piltover'})
+merge (c)-[:belongs_to]->(r)
+
+MATCH (c:Champion {name: 'Ornn'}), (r:Runeterra {name: 'The Freljord'})
+merge (c)-[:belongs_to]->(r)
+
+MATCH (c:Champion {name: 'Pyke'}), (r:Runeterra {name: 'Bilgewater'})
+merge (c)-[:belongs_to]->(r)
+
+MATCH (c:Champion {name: 'Rakan'}), (r:Runeterra {name: 'Ionia'})
+merge (c)-[:belongs_to]->(r)
+
+MATCH (c:Champion {name: 'Sejuani'}), (r:Runeterra {name: 'The Freljord'})
+merge (c)-[:fights_for]->(r)
+
+MATCH (c:Champion {name: 'Singed'}), (r:Runeterra {name: 'Zaun'})
+merge (c)-[:belongs_to]->(r)
+
+MATCH (c:Champion {name: 'Soraka'}), (r:Runeterra {name: 'Targon'})
+merge (c)-[:belongs_to]->(r)
+
+MATCH (c:Champion {name: 'Swain'}), (r:Runeterra {name: 'Noxus'})
+merge (c)-[:dictates]->(r)
+
+MATCH (c:Champion {name: 'Tristana'}), (r:Runeterra {name: 'Bandle City'})
+merge (c)-[:belongs_to]->(r)
+
+MATCH (c:Champion {name: 'Viego'}), (r:Runeterra {name: 'Shadow Isles'})
+merge (c)-[:rebuilt]->(r)
+
+MATCH (c:Champion {name: 'Xayah'}), (r:Runeterra {name: 'Ionia'})
+merge (c)-[:belongs_to]->(r)
+
+MATCH (c:Champion {name: 'Zyra'}), (r:Runeterra {name: 'Ixtal'})
+merge (c)-[:belongs_to]->(r)
+
+match (c:Champion {name: "Garen"}), (r:Runeterra {name: "Demacia"}) 
+merge (c)-[:protects]->(r)

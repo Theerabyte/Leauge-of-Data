@@ -1,0 +1,18 @@
+match (c1:Champion {name: "Rakan"}), (c2:Champion {name: "Xayah") 
+merge (c1)-[:loves]-(c2)
+
+match (c1:Champion {name: "Rakan"}), (c2:Champion {name: "Xayah") 
+merge (c2)-[:loves]-(c1)
+
+match (c1:Champion {name: "Ashe"}), (c2:Champion {name: "Tryndamer") 
+merge (c1)-[:partner_of]-(c2)
+
+match (c1:Champion {name: "Ashe"}), (c2:Champion {name: "Tryndamer") 
+merge (c2)-[:partner_of]-(c1)
+
+match (c1:Champion {name: "Orianna"}), (c2:Champion {name: "Singed") 
+merge (c1)-[:child_of]-(c2)
+
+match (c1:Champion {name: "Orianna"}), (c2:Champion {name: "Singed") 
+merge (c2)-[:parent_of]-(c1)
+

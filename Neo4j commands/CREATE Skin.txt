@@ -1,0 +1,119 @@
+CREATE (:Skin {
+    name: "K/DA Kai'sa", 
+    series: "K/DA", 
+    uploadyear: 2018, 
+    rarity: "Epic"
+}), 
+(:Skin {
+    name: "Freljord Ashe", 
+    uploadyear: 2013, 
+    rarity: "Legendary"
+}), 
+(:Skin {
+    name: "Sheriff Caitlyn", 
+    series: "Sheriff", 
+    uploadyear: 2014, 
+    rarity: "Epic"
+}), 
+(:Skin {
+    name: "Lord Darius", 
+    series: "Noxus", 
+    uploadyear: 2015, 
+    rarity: "Legendary"
+}), 
+(:Skin {
+    name: "Headless Hecarim", 
+    series: "Halloween", 
+    uploadyear: 2017, 
+    rarity: "Epic"
+}), 
+(:Skin {
+    name: "Star Guardian Lux", 
+    series: "Star Guardian", 
+    uploadyear: 2016, 
+    rarity: "Epic"
+}), 
+(:Skin {
+    name: "Cowgirl Miss Fortune", 
+    series: "Wild West", 
+    uploadyear: 2015, 
+    rarity: "Epic"
+}), 
+(:Skin {
+    name: "Gothic Orianna", 
+    series: "Gothic", 
+    uploadyear: 2016, 
+    rarity: "Legendary"
+}), 
+(:Skin {
+    name: "Choo-Choo Ornn", 
+    uploadyear: 2023
+}), 
+(:Skin {
+    name: "Bloodmoon Pyke", 
+    series: "Bloodmoon", 
+    uploadyear: 2019, 
+    rarity: "Legendary"
+}), 
+(:Skin {
+    name: "Traditional Sejuani", 
+    uploadyear: 2015, 
+    rarity: "Epic"
+}), 
+(:Skin {
+    name: "Mad Scientist Singed", 
+    series: "Mad Scientist", 
+    uploadyear: 2014, 
+    rarity: "Epic"
+}), 
+(:Skin {
+    name: "Spirit Blossom Soraka", 
+    series: "Spirit Blossom", 
+    uploadyear: 2020, 
+    rarity: "Legendary"
+}), 
+(:Skin {
+    name: "Chosen of the Wolf Swain", 
+    series: "Chosen of the Wolf", 
+    uploadyear: 2024
+}), 
+(:Skin {
+    name: "Rocket Girl Tristana", 
+    series: "Rocket", 
+    uploadyear: 2016, 
+    rarity: "Epic"
+}), 
+(:Skin {
+    name: "Worlds 2024 Viego", 
+    uploadyear: 2024
+}),
+(:Skin {
+    name: "Starguardian Rakan", 
+    series: "Starguardian", 
+    uploadyear: 2021
+}),
+(:Skin {
+    name: "Starguardian Xayah", 
+    series: "Starguardian", 
+    uploadyear: 2021
+}),
+(:Skin {
+    name: "Haunted Zyra", 
+    series: "Halloween", 
+    uploadyear: 2014, 
+    rarity: "Epic"
+}), 
+(:Skin {
+    name: "Sanguine Garen", 
+    uploadyear: 2010,
+}), 
+(:Skin {
+    name: "Pijama Guardian Soraka", 
+    series: "Pijama Guardian", 
+    uploadyear: 2018,
+}), 
+(:Skin {
+    name: "Crystal Rose Akshan", 
+    series: "Crystal Rose", 
+    uploadyear: 2022
+});

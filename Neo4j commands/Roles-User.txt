@@ -1,0 +1,31 @@
+create user admin set password "sml12345" change not required
+create user app_user set password "password1" change not required
+create user backup_user set password "password2" change not required
+create user maintain_user set password "password3" change not required
+
+create role admin
+create role app
+create role backup
+create role maintain
+
+grant role admin to admin
+grant role app to app_user
+grant role backup to backup_user
+grant role maintain to maintain_user
+
+grant role reader to app_user
+
+revoke role admin from admin
+revoke role app from app_user
+revoke role backup from backup_user
+revoke role maintain from maintain_user
+
+drop role admin
+drop role app
+drop role backup
+drop role maintain
+
+drop user admin
+drop user app_user
+drop user backup_user
+drop user maintain_user

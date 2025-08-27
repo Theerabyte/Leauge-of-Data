@@ -1,0 +1,66 @@
+
+MATCH (c:Champion {name: 'Akshan'}), (s:Skin {name: 'Crystal Rose Akshan'})
+merge (c)-[:owns {state: "prettiest"}]->(s)
+
+MATCH (c:Champion {name: "Kai'sa"}), (s:Skin {name: "K/DA Kai'sa"})
+merge (c)-[:owns {state: "most_popular"}]->(s)
+
+MATCH (c:Champion {name: 'Ashe'}), (s:Skin {name: "Freljord Ashe"})
+merge (c)-[:owns {state: "oldest"}]->(s)
+
+MATCH (c:Champion {name: 'Caitlyn'}), (s:Skin {name: "Sheriff Caitlyn"})
+merge (c)-[:owns]->(s)
+
+MATCH (c:Champion {name: 'Darius'}), (s:Skin {name: "Lord Darius"})
+merge (c)-[:owns {state: "oldest"}]->(s)
+
+MATCH (c:Champion {name: 'Hecarim'}), (s:Skin {name: "Headless Hecarim"})
+merge (c)-[:owns]->(s)
+
+MATCH (c:Champion {name: 'Lux'}), (s:Skin {name: "Star Guardian Lux})
+merge (c)-[:owns {state: "most_popular"}]->(s)
+
+MATCH (c:Champion {name: 'Miss Fortune'}), (s:Skin {name: "Cowgirl Miss Fortune"})
+merge (c)-[:owns]->(s)
+
+MATCH (c:Champion {name: 'Oriana'}), (s:Skin {name: "Gothic Orianna"})
+merge (c)-[:owns {state: "oldest"}]->(s)
+
+MATCH (c:Champion {name: 'Ornn'}), (s:Skin {name: "Choo-Choo Ornn"})
+merge (c)-[:owns {state: "newest"}]->(s)
+
+MATCH (c:Champion {name: 'Pyke'}), (s:Skin {name: "Bloodmoon Pyke"})
+merge (c)-[:owns {state: "prettiest"}]->(s)
+
+MATCH (c:Champion {name: 'Sejuani'}), (s:Skin {name: "Traditional Sejuani"})
+merge (c)-[:owns {state: "prettiest"}]->(s)
+
+MATCH (c:Champion {name: 'Singed'}), (s:Skin {name: "Mad Scientist Singed"})
+merge (c)-[:owns {state: "ugliest"}]->(s)
+
+MATCH (c:Champion {name: 'Soraka'}), (s:Skin {name: "Spirit Blossom Soraka"})
+merge (c)-[:owns {state: "most_majestic"}]->(s)
+
+MATCH (c:Champion {name: 'Swain'}), (s:Skin {name: "Chosen of the Wolf Swain"})
+merge (c)-[:owns {state: "newest"}]->(s)
+
+MATCH (c:Champion {name: 'Tristana'}), (s:Skin {name: "Rocket Girl Tristana"})
+merge (c)-[:owns]->(s)
+
+MATCH (c:Champion {name: 'Viego'}), (s:Skin {name: "Worlds 2024 Viego"})
+merge (c)-[:owns {state: "most_popular"}]->(s)
+
+MATCH (c:Champion {name: 'Rakan'}), (s:Skin {name: 'Starguardian Rakan'})
+merge (c)-[:owns]->(s)
+
+MATCH (c:Champion {name: 'Xayah'}), (s:Skin {name: 'Starguardian Xayah'})
+merge (c)-[:owns]->(s)
+
+MATCH (c:Champion {name: 'Zyra'}), (s:Skin {name: "Haunted Zyra"})
+merge (c)-[:owns {state: "ugliest"}]->(s)
+
+MATCH (c:Champion {name: 'Garen'}), (s:Skin {name: 'Sanguine Garen'})
+merge (c)-[:owns {state: "oldest"}]->(s)
+
+MATCH (c:Champion {name: 'Soraka'}), (s:Skin {name: 'Pijama Guardian Soraka'})
+merge (c)-[:owns]->(s)

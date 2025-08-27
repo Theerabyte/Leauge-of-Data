@@ -1,0 +1,14 @@
+match (c:Champion {name: 'Ashe'}), (r:Runeterra {name: 'The Freljord'})
+merge (r)-[:ruled_by]->(c)
+
+MATCH (c:Champion {name: 'Lux'}), (r:Runeterra {name: 'Demacia'})
+merge (r)-[:protected_by]->(c)
+
+MATCH (c:Champion {name: 'Swain'}), (r:Runeterra {name: 'Noxus'})
+merge (r)-[:dictated_by]->(c)
+
+MATCH (c:Champion {name: 'Viego'}), (r:Runeterra {name: 'Shadow Isles'})
+merge (r)-[:rebuilt_by]->(c)
+
+match (c:Champion {name: "Garen"}), (r:Runeterra {name: "Demacia"}) 
+merge (r)-[:protected_by]->(c)

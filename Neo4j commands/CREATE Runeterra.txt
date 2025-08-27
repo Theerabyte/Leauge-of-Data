@@ -1,0 +1,79 @@
+CREATE 
+(:Runeterra { 
+    name: "Ionia",
+    ecosystem: "Magic flatland",
+    politics: "Kingdom", 
+    population: 500000 
+}), 
+(:Runeterra { 
+    name: "The Void",
+    ecosystem: "Chaotic realm",
+    politics: "N/A", 
+    population: "Unquantifiable"
+}), 
+(:Runeterra { 
+    name: "Bandle City",
+    ecosystem: "Whimsical magic",
+    politics: "N/A", 
+    population: 200000 
+}), 
+(:Runeterra { 
+    name: "Shadow Isles",
+    ecosystem: "Haunted islands",
+    politics: "Anarchy", 
+    population: 250000 
+}),  
+(:Runeterra { 
+    name: "Bilgewater",
+    ecosystem: "Gritty port",
+    politics: "Gang rule", 
+    population: 700000 
+}), 
+(:Runeterra { 
+    name: "Piltover",
+    ecosystem: "Tech city",
+    politics: "Democratic Republic", 
+    population: 1500000 
+}), 
+(:Runeterra { 
+    name: "Zaun",
+    ecosystem: "Polluted undercity",
+    politics: "Corruption", 
+    population: 900000 
+}),  
+(:Runeterra { 
+    name: "Ixtal",
+    ecosystem: "Elemental magic",
+    politics: "Tribal Council", 
+    population: 300000 
+}), 
+(:Runeterra { 
+    name: "Shurima",
+    ecosystem: "Ancient desert",
+    politics: "Monarchy", 
+    population: 1200000 
+}), 
+(:Runeterra { 
+    name: "Targon",
+    ecosystem: "Celestial region",
+    politics: "Theocratic", 
+    population: 100000 
+}),  
+(:Runeterra { 
+    name: "Demacia",
+    ecosystem: "Prosperous land",
+    politics: "Monarchical democracy", 
+    population: 6000000 
+}), 
+(:Runeterra { 
+    name: "Noxus",
+    ecosystem: "Militaristic empire",
+    politics: "Imperial", 
+    population: 2500000 
+}), 
+(:Runeterra { 
+    name: "The Freljord",
+    ecosystem: "Frozen land",
+    politics: "Tribal Alliance", 
+    population: 500000 
+});
